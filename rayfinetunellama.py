@@ -24,7 +24,7 @@ from ray.train.torch import TorchTrainer, get_device
 
 def training_func():
     hf_user = 'yajuvendra'
-    hf_token = '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'
+    hf_token = 'hf_xxxxxxxx'
 
     HfFolder.save_token(hf_token)
 

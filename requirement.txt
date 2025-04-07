@@ -1,0 +1,11 @@
+pytorch_lightning==2.2.5
+ray_lightning
+torchmetrics==1.4.0
+torchvision==0.18.0
+bitsandbytes
+# !pip install -q -U git+https://github.com/huggingface/transformers.git
+transformers==4.31 #temporary fix required owing to breaking changes on Aug 9th 2023
+git+https://github.com/huggingface/peft.git
+accelerate
+datasets
+huggingface_hub

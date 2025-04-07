@@ -7,3 +7,6 @@ spec:
   - key: nvidia.com/gpu
     operator: "Exists"
     effect: "NoSchedule"
+  - key: odh-notebook
+    operator: "Exists"
+    effect: "NoSchedule"
